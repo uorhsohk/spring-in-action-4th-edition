@@ -29,3 +29,8 @@ um das Problem zu beheben, muss man halt das folgende Dependency der POM-Datei h
     <version>5.3.2</version>
 </dependency>
 ```
+
+Um die Java Bean Config zu konfigurieren, muss nur die folgende Zeile auskommentiert werden:
+```java
+//        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(KnightConfig.class);
+```
