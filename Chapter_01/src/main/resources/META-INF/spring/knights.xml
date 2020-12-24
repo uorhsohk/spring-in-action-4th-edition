@@ -4,16 +4,16 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/aop https://www.springframework.org/schema/aop/spring-aop.xsd">
 
-    <bean id="knight" class="main.java.BraveKnight">
+    <bean id="knight" class="main.com.springinaction.knights.BraveKnight">
         <constructor-arg ref="quest"/>
     </bean>
 
-    <bean id="quest" class="main.java.SlayDragonQuest">
-        <constructor-arg value="#{T(System).out}" />
+    <bean id="quest" class="main.com.springinaction.knights.SlayDragonQuest">
+        <constructor-arg value="#{T(System).out}"/>
     </bean>
 
-    <bean id="minstrel" class="main.java.Minstrel">
-        <constructor-arg value="#{T(System).out}" />
+    <bean id="minstrel" class="main.com.springinaction.knights.Minstrel">
+        <constructor-arg value="#{T(System).out}"/>
     </bean>
 
     <aop:config>

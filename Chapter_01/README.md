@@ -14,7 +14,7 @@ Exception in thread "main" org.springframework.beans.factory.BeanCreationExcepti
 	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:588)
 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:144)
 	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:85)
-	at main.java.KnightMain.main(KnightMain.java:7)
+	at com.springinaction.knights.KnightMain.main(KnightMain.java:7)
 
 ```
 der Bean konnte nicht erstellt werden.
