@@ -32,5 +32,7 @@ um das Problem zu beheben, muss man halt das folgende Dependency der POM-Datei h
 
 Um die Java Bean Config zu konfigurieren, muss nur die folgende Zeile auskommentiert werden:
 ```java
-//        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(KnightConfig.class);
+AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(KnightConfig.class);
 ```
+
+Der Model View Controller Pattern ist der Pattern, der meist da verwendet wird, wo es die Oberfläsche anders als Backend ist. Z.B., wenn man das Frontend in JS schreib aber das Backend halt in Java.
